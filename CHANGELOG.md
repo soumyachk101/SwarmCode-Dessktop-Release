@@ -11,6 +11,25 @@ All notable changes to Swarm Code Desktop (Windows & Linux) are documented in th
 - **Linux Flatpak Distribution**: Official Flathub package with sandboxed portal permissions.
 - **Portable Windows Edition**: Zero-install standalone archive (`.zip`) for restricted enterprise environments.
 
+## [1.0.3] - 2026-09-27
+
+### Summary
+Swarm Code Desktop 1.0.3 fixes multiple MCP dialog UI rendering issues on Windows and Linux, restores proper radio card selection feedback, and ensures environment variable controls display correctly. All fixes are upstream-synced with the latest macOS codebase.
+
+### Highlights & Fixes
+- **MCP Custom Server Dialog — Section Labels**: Restored default text styling (`text-xs font-medium text-foreground`) on all section labels that were rendering unstyled after a UI refactor.
+- **MCP Transport Type Selection**: Fixed radio card selection visual feedback — `data-checked:` Tailwind classes were previously applied to an inner `<div>` instead of the `<Radio>` element, making the selected state invisible.
+- **MCP Command/URL Inputs — Monospace Font**: Replaced non-standard `font="mono"` React prop (which had no effect) with the correct `font-mono` CSS class on command, arguments, and URL input fields.
+- **MCP Environment Variable Trash Button**: Moved destructive color classes (`text-destructive/80 hover:text-destructive`) onto the Button element for correct CSS specificity and reliable hover feedback.
+- **Accessibility**: Restored `aria-labelledby` wiring between the Transport section label and the RadioGroup for screen reader compatibility.
+
+### Release Assets
+- **Windows 10/11 (64-bit)**: `Swarm-Code-1.0.3-x64.exe` (NSIS installer)
+- **Linux (Universal)**: `Swarm-Code-1.0.3-x86_64.AppImage` & `Swarm-Code-1.0.3-amd64.deb`
+- **macOS**: Update feed points to `soumyachk101/Swarm-Code-Release` (separate 1.8.x track)
+
+---
+
 ## [1.0.2] - 2026-09-27
 
 ### Summary
