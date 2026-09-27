@@ -11,6 +11,16 @@ All notable changes to Swarm Code Desktop (Windows & Linux) are documented in th
 - **Linux Flatpak Distribution**: Official Flathub package with sandboxed portal permissions.
 - **Portable Windows Edition**: Zero-install standalone archive (`.zip`) for restricted enterprise environments.
 
+## [1.0.1] - 2026-09-27
+
+### Summary
+Swarm Code Desktop 1.0.1 delivers vital stability and installer fixes for macOS preview builds, updates in-app auto-update stream resolution to `soumyachk101/SwarmCode-Dessktop-Release`, and resolves UI discrepancy between local development and packaged desktop bundles.
+
+### Highlights & Fixes
+- **Branding & Packaging Alignment**: Bundles macOS preview application as `SwarmCode Dev.app` with Apple Silicon (arm64) runtime to prevent conflict with native AppKit installations while delivering 100% React 19 / Electron interface parity.
+- **In-App Auto-Update Stream**: Enhanced `electron-updater` differential update distribution via `latest-mac.yml` (`Swarm-Code-1.0.1-arm64.zip`) pointing directly to `soumyachk101/SwarmCode-Dessktop-Release`.
+- **DMG Installer Refresh**: Clean macOS DMG installer artwork with authentic `SwarmCode Dev` typography and verified drag-to-Applications directory mapping.
+
 ---
 
 ## [1.0.0] - 2026-09-27
