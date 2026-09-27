@@ -70,7 +70,7 @@ swarm-code
 ```
 
 ### Linux — Arch Linux / AUR
-PKGBUILD build scripts are included in the source under `packaging/aur/t3code-bin/PKGBUILD` for Arch Linux makepkg installation.
+PKGBUILD build scripts are included in the source under `packaging/aur/swarm-code-bin/` for Arch Linux makepkg installation.
 
 ---
 

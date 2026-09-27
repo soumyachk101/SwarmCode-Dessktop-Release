@@ -30,7 +30,7 @@ Swarm Code Desktop 1.0.0 is the inaugural official cross-platform desktop releas
 ### Official Linux Support
 - **Universal AppImage**: Standalone universal x86_64 AppImage (`Swarm-Code-1.0.0-x86_64.AppImage`) runnable across Ubuntu, Debian, Fedora, Arch Linux, openSUSE, and Pop!_OS without installation.
 - **Debian / Ubuntu Package**: Native `.deb` package (`Swarm-Code-1.0.0-amd64.deb`) with proper desktop entry (`swarm-code.desktop`), MIME type registrations, and icons installed to `/usr/share/icons/hicolor`.
-- **Arch Linux / AUR Packaging**: PKGBUILD scripts provided under `packaging/aur/` for Arch User Repository package building (`t3code-bin` / `swarm-code-bin`).
+- **Arch Linux / AUR Packaging**: PKGBUILD scripts provided under `packaging/aur/` for Arch User Repository package building (`swarm-code-bin`).
 - **FreeDesktop Notifications**: Native Linux desktop notifications conforming to the FreeDesktop Notification specification via D-Bus, complete with application icon and action click handlers.
 - **D-Bus Secret Service Integration**: Encrypted credential storage using the FreeDesktop Secret Service API (`org.freedesktop.secrets`), seamlessly integrating with GNOME Keyring and KDE KWallet via `@napi-rs/keyring`.
 - **System Tray Integration**: Dedicated system tray icon with status menu, quick thread launch, and background running capabilities.
