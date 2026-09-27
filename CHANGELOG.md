@@ -11,6 +11,21 @@ All notable changes to Swarm Code Desktop (Windows & Linux) are documented in th
 - **Linux Flatpak Distribution**: Official Flathub package with sandboxed portal permissions.
 - **Portable Windows Edition**: Zero-install standalone archive (`.zip`) for restricted enterprise environments.
 
+## [1.0.2] - 2026-09-27
+
+### Summary
+Swarm Code Desktop 1.0.2 fixes a critical projector decoding bug during thread creation across all supported operating systems (macOS, Windows, Linux) and publishes synchronized releases across all platforms.
+
+### Highlights & Fixes
+- **Thread Creation & Orchestration Fix**: Fixed `Projector decode failed for thread.created:thread: Expected string | undefined at ["hydraParentThreadId"]` by updating orchestration schemas and projector mapping to accept nullable and optional `hydraParentThreadId` across `OrchestrationThread`, `ThreadCreateCommand`, and `ThreadCreatedPayload`.
+- **Universal Multi-OS Release**: Synchronized release across all platforms:
+  - **macOS**: `SwarmCode-Dev-1.0.2-arm64.dmg` & `Swarm-Code-1.0.2-arm64.dmg` with auto-update zip.
+  - **Windows**: `Swarm-Code-1.0.2-x64.exe` (NSIS installer) with Differential blockmaps.
+  - **Linux**: `Swarm-Code-1.0.2-x86_64.AppImage` & `Swarm-Code-1.0.2-amd64.deb`.
+- **Full In-App Update Compatibility**: Update feed streams (`latest.yml`, `latest-linux.yml`, `latest-mac.yml`) synchronized to `soumyachk101/SwarmCode-Dessktop-Release`.
+
+---
+
 ## [1.0.1] - 2026-09-27
 
 ### Summary
