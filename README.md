@@ -27,11 +27,12 @@ Official desktop binary releases for Windows and Linux (64-bit):
 
 | Platform | Format | Architecture | Download Link | File Size |
 | :--- | :--- | :--- | :--- | :--- |
+| **macOS (Dev / Preview)** | Apple Silicon DMG (`.dmg`) | 64-bit (arm64) | [**Download for macOS (DMG)**](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/Swarm-Code-1.0.0-arm64.dmg) | ~142 MB |
 | **Windows** | Installer (`.exe`) | 64-bit (x64) | [**Download for Windows (Installer)**](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/Swarm-Code-1.0.0-x64.exe) | ~129 MB |
 | **Linux (Universal)** | Standalone AppImage | 64-bit (x86_64) | [**Download Linux AppImage**](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/Swarm-Code-1.0.0-x86_64.AppImage) | ~150 MB |
 | **Linux (Debian / Ubuntu)** | Native Package (`.deb`) | 64-bit (amd64) | [**Download Debian / Ubuntu .deb**](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/Swarm-Code-1.0.0-amd64.deb) | ~118 MB |
 
-> **Verification Checksums**: [Windows SHA-256](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/SHA256SUMS-windows.txt) · [Linux SHA-256](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/SHA256SUMS-linux.txt)
+> **Verification Checksums**: [macOS SHA-256](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/SHA256SUMS-mac.txt) · [Windows SHA-256](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/SHA256SUMS-windows.txt) · [Linux SHA-256](https://github.com/soumyachk101/SwarmCode-Dessktop-Release/releases/download/v1.0.0/SHA256SUMS-linux.txt)
 
 ---
 

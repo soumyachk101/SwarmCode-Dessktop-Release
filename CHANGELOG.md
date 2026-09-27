@@ -18,6 +18,10 @@ All notable changes to Swarm Code Desktop (Windows & Linux) are documented in th
 ### Summary
 Swarm Code Desktop 1.0.0 is the inaugural official cross-platform desktop release bringing the complete Swarm Code multi-agent AI coding environment to Windows and Linux. Built with modern web architecture (Electron 44, React 19, TypeScript, Effect-TS, Tailwind CSS v4) and backed by a native Node.js 22+ engine with a Rust resource monitor sidecar, Swarm Code Desktop delivers 100% workflow parity with the native macOS experience—on your own subscriptions, with zero markup, zero telemetry, and zero cloud sync.
 
+### macOS Dev / Preview Build (Apple Silicon)
+- **Standalone DMG Installer**: Built for developer verification and testing (`Swarm-Code-1.0.0-arm64.dmg`), packaged as `SwarmCode Dev.app` with Apple Silicon (arm64) runtime.
+- **In-App Update Stream**: Configured with `latest-mac.yml` and differential update package (`Swarm-Code-1.0.0-arm64.zip`) pointing to `soumyachk101/SwarmCode-Dessktop-Release`.
+
 ### Official Windows Support
 - **Standalone 64-bit Installer**: Distributed as a streamlined NSIS installer (`Swarm-Code-1.0.0-x64.exe`) supporting Windows 10 and Windows 11 (64-bit x64).
 - **Native Windowing & Frame**: Native Windows title bar styling with Windows 11 rounded corners, Snap Layouts support, and responsive window controls.
